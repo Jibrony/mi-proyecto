@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Button } from 'react-bootstrap';
 
 function Buscador({ onSearch }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -20,7 +21,7 @@ function Buscador({ onSearch }) {
         value={searchTerm}
         onChange={handleChange}
       />
-      <button type="submit">Buscar</button>
+      <Button type="submit" style={{height: '45px', width: '100px', fontSize: '20px', marginTop: '-9px', borderRadius: '0px'}}>Buscar</Button>
     </form>
   );
 }

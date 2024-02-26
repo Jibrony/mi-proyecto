@@ -6,10 +6,20 @@
 
 .card-image-wrapper .img-product {
   width: 100%;
-  height: auto;
+  height: auto !important;
 }
 
-.fila {
+.Carta {
+  height: 500px !important;
+  width: 100% !important;
+  margin-bottom: 25px !important;
+}
+
+.body-card .descripcion {
+  font-size: 19px !important;
+}
+
+.row {
   margin-bottom: 25px;
   /* Ajusta el valor según sea necesario */
 }

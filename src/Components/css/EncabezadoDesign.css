@@ -1,0 +1,19 @@
+.contenedor {
+    height: 20vh;
+    width: 100vh;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.logo img{
+    height: auto;
+    width: 200px;
+    margin-left: -1000px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.hTitulo {
+    margin-top: -150px;
+    font-size: 50px;
+}

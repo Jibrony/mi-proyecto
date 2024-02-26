@@ -53,6 +53,12 @@ export default [
         categoria: ["Tailandesa", "Noodles", "Mariscos", "Cocina callejera"],
         descripcion: "Plato emblemático de la cocina tailandesa, compuesto por fideos de arroz salteados con tofu.",
         imagen: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Phat_Thai_kung_Chang_Khien_street_stall.jpg/1200px-Phat_Thai_kung_Chang_Khien_street_stall.jpg"
+    },
+    {
+        nombre: "Pozole",
+        categoria: ["Mexicana"],
+        descripcion: "Del náhuatl pozolli, de tlapozonalli, que significa espumoso, es un caldo hecho a base de granos de maíz cacahuazintle.",
+        imagen: "https://media.admagazine.com/photos/618a62f85b87a99cfb816295/4:3/w_4000,h_3000,c_limit/76176.jpg"
     }
 ];
 

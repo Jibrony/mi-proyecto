@@ -17,7 +17,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #B80000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,33 +25,6 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-header .logo {
-  display: flex;
-  flex-direction: row;
-}
-
-.App-header .logo img {
-  margin-top: -50px;
-  margin-left: -400px;
-  width: 300px;
-  height: 300px;
-}
-
-.App-header .logo .hTitulo {
-  margin-top: 100px;
-  font-size: 30px;
-  margin-left: 100px;
-}
-
-.App-header .Carta-producto {
-  display: flex;
-}
-
-.App-header .Carta-producto .img-product {
-  width: auto;
-  height: 200px;
 }
 
 .App-link {

@@ -1,8 +1,12 @@
+import EncabezadoDesign from "./css/EncabezadoDesign.css";
+
 function Encabezado({}){
     return(
-        <div className="logo">
-        <img src="https://static.vecteezy.com/system/resources/previews/014/971/638/non_2x/food-logo-design-template-restaurant-free-png.png" rounded />
-        <h2 className="hTitulo">RECETAS</h2>
+        <div className="contenedor">
+            <div className="logo">
+                <img src="https://img.freepik.com/vector-premium/logo-restaurante-retro_23-2148474404.jpg"/>
+            </div>
+                <h2 className="hTitulo">RECETAS</h2>
         </div>
     );
 }
